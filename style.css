@@ -7,6 +7,9 @@
     width: 50%;
     margin: auto;
   }
+  .nav-btn{
+    display: none;
+  }
   /* bonus-section */
   .btn-1{
     display: block;
@@ -19,6 +22,11 @@
 @media screen and (min-width: 577px) and (max-width:992px){
 .bonus{
   flex-direction: column;
+}
+.nav-btn-hide{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
 }
   /* bonus-section */
   .btn-1{
@@ -35,11 +43,14 @@
 }
 /* mobile view */
 @media screen and (max-width: 576px){
-  .bonus{
-    flex-direction: column;
-    width: 90%;
-  }
+    .nav-btn{
+      display: none;
+    }
     /* bonus-section */
+    .bonus{
+      flex-direction: column;
+      width: 90%;
+    }
     .btn-1{
       display: none;
     }
@@ -50,6 +61,9 @@
     /* card */
     .card-4,.card-5,.card-6{
       display: none;
+    }
+    .card-img{
+      height: 30vh;
     }
     /* carousel-item  */
     .carousel{

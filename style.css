@@ -23,10 +23,13 @@
 .bonus{
   flex-direction: column;
 }
-.nav-btn-hide{
+.nav-btn-d{
   display: flex;
   width: 90%;
   justify-content: space-between;
+}
+.nav-btn-h{
+  display: none;
 }
   /* bonus-section */
   .btn-1{

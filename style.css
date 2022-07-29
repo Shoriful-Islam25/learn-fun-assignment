@@ -1,3 +1,9 @@
 .brigtness{
   filter: brightness(50%);
 }
+@media screen and (min-width: 992px){
+  .accordion-content{
+    width: 50%;
+    margin: auto;
+  }
+}

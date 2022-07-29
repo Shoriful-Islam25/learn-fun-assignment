@@ -1,4 +1,4 @@
-.brigtness{
+.carousel-img{
   filter: brightness(50%);
 }
 /* desktop view */
@@ -28,6 +28,7 @@
     display: block;
     margin: auto;
   }
+  /* card */
   .card-4,.card-5,.card-6{
     display: none;
   }
@@ -46,7 +47,26 @@
       display: block;
       margin: auto;
     }
+    /* card */
     .card-4,.card-5,.card-6{
       display: none;
     }
+    /* carousel-item  */
+    .carousel{
+      font-size: 10px;
+    }
+    .carousel-heading{
+      font-size: 15px;
+      margin: 0;
+    }
+    .carousel-btn{
+      padding:1px 2px;
+      font-size:;
+    }
+  .carousel-caption{
+    padding: 0;
+  }
+  .carousel-img{
+    height: 30vh;
+  }
 }

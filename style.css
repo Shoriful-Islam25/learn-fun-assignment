@@ -1,9 +1,46 @@
 .brigtness{
   filter: brightness(50%);
 }
+/* desktop view */
 @media screen and (min-width: 992px){
   .accordion-content{
     width: 50%;
     margin: auto;
   }
+  /* bonus-section */
+  .btn-1{
+    display: block;
+  }
+  .btn-2{
+    display: none;
+  }
+}
+/* tab view */
+@media screen and (min-width: 577px) and (max-width:992px){
+.bonus{
+  flex-direction: column;
+}
+  /* bonus-section */
+  .btn-1{
+    display: none;
+  }
+  .btn-2{
+    display: block;
+    margin: auto;
+  }
+}
+/* mobile view */
+@media screen and (max-width: 576px){
+  .bonus{
+    flex-direction: column;
+    width: 90%;
+  }
+    /* bonus-section */
+    .btn-1{
+      display: none;
+    }
+    .btn-2{
+      display: block;
+      margin: auto;
+    }
 }
